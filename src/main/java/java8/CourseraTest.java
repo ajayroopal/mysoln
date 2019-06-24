@@ -6,18 +6,19 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
-public class Solution {
-    public static void main(String args[]) throws Exception {
-        /* Enter your code here. Read input from STDIN. Print output to STDOUT */
-    }
+public class CourseraTest {
+}
+ /*   public static void main(String args[]) throws Exception {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT
+    }*/
 
     //exact match - match "abc" "abc"
     //wild card match abc ab.
     //bcd xya? - false
 
-    public boolean myRegexExactMatch(String sourceString, String p) {
+   /* public boolean myRegexExactMatch(String sourceString, String p) {
         //check that String is not null
-        if (sourceString == null || p == null) {
+     /*   if (sourceString == null || p == null) {
             return false;
         }
 
@@ -61,7 +62,7 @@ public class Solution {
 
     //int = -1 matches
     //index =
-    private int matchWildCard (char[]source,char[] pattern, int index) {
+    private int matchWildCard(char[] source, char[] pattern, int index) {
         for (int i = index; i < pattern.length; i++) {
             if (!(source[i] == pattern[i] || source[i] == '.')) {
                 return index;
@@ -71,7 +72,8 @@ public class Solution {
             return -1;
 
         }
-    }
+    }*/
+
 
 
 
